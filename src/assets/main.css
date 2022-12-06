@@ -1,0 +1,92 @@
+* {
+    transition: all 150ms linear;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    background-color: hsl(47, 100%, 50%);
+}
+
+label {
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+label:not(:last-child) {
+    border-bottom: 1px solid steelblue;
+
+}
+
+main {
+    margin: 0.55rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    max-width: 40rem;
+    margin-inline: auto;
+    padding-inline: 0.55em;
+    padding-block: 0.55em;
+    border-radius: 0.15em;
+    background-color: #fff;
+}
+
+.container-result {
+    background-color: #fff;
+    padding-inline: 0.55rem;
+    margin-block: 0.55rem;
+    margin-inline: auto;
+    max-width: 35rem;
+    padding-block: 0.55em;
+    border-radius: 0.15rem;
+    display: flex;
+    flex-flow: column;
+    gap: 0.15rem;
+}
+
+.result {
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0.25rem;
+}
+
+.line {
+    border-bottom: 2px dotted black;
+    flex: 1;
+    translate: 0 -0.25rem;
+}
+
+.cb {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 2.2em;
+    height: 2.2em;
+    border: 0.275em solid hsl(0, 0%, 0%);
+    border-radius: 5px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.cb:checked::after {
+    content: "\1F480";
+    font-size: 1.25em;
+}
+
+.select {
+    margin: 0.5em 0.5em;
+}
