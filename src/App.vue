@@ -11,7 +11,6 @@ const addValue = (flag: string, value: string) => {
   if (marcados.value.some((e) => e.flag === flag)) {
     marcados.value.splice(
       marcados.value.findIndex((e) => e.flag === flag),
-
       1
     );
 

@@ -84,6 +84,10 @@
     "valor": "75"
   },
   {
+    "flag": "tem alergia a gatos",
+    "valor": "250"
+  },
+  {
     "flag": "fã de sewerslvt",
     "valor": "500"
   },
@@ -285,8 +289,7 @@
   },
   {
     "flag": "usa facebook",
-    "valor": "500",
-    "id": "fb"
+    "valor": "500"
   },
   {
     "flag": "chama toda ex de maluca",
