@@ -24,7 +24,11 @@ label:not(:last-child) {
 }
 
 main {
-    margin: 0.55rem;
+    margin: 0.15rem;
+    padding: 0.55rem;
+    display: flex;
+    flex-flow: column;
+    gap: 0.35rem;
 }
 
 .container {
@@ -36,9 +40,11 @@ main {
     padding-block: 0.55em;
     border-radius: 0.15em;
     background-color: #fff;
+    box-shadow: 0.55rem 0.55rem rgba(0, 0, 0, 0.35);
 }
 
 .container-result {
+    box-shadow: 0.55rem 0.55rem rgba(0, 0, 0, 0.35);
     background-color: #fff;
     padding-inline: 0.55rem;
     margin-block: 0.55rem;
@@ -89,4 +95,9 @@ main {
 
 .select {
     margin: 0.5em 0.5em;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.25rem;
 }

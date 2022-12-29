@@ -52,12 +52,23 @@ const addValue = (flag: string, value: string) => {
         <div class="line"></div>
         <div class="value">{{ marcados.length }} de {{ redflags.length }}</div>
       </div>
+
       <div class="result">
         <div class="flag">TOTAL</div>
         <div class="line"></div>
         <div class="value">
           {{ soma }}
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer">
+        desenvolvido por
+        <a href="https://twitter.com/folkcoreano" target="_blank"
+          >@folkcoreano</a
+        >
+        e baseado na infame lista de redflags de
+        <a href="https://twitter.com/rafdaaa" target="_blank">@rafdaaa</a>
       </div>
     </div>
   </main>
